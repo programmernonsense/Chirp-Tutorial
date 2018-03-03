@@ -17,7 +17,7 @@ router.route('/posts')
 		res.send({message:"TODO get all the posts in the database"});
 	})
 
-//api for a specfic post
+//api for a specific post
 router.route('/posts/:id')
 
 	//create
